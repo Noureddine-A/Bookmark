@@ -1,0 +1,35 @@
+.bookmark__features-button {
+  width: 17%;
+  border: none;
+  background-color: white;
+  font-family: var(--regular);
+  color: var(--grayish-blue);
+  font-size: 16px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.267);
+  cursor: pointer
+}
+
+.bookmark__features-button-active {
+  width: 17%;
+  border: none;
+  background-color: white;
+  font-family: var(--regular);
+  color: var(--very-dark-blue);
+  font-size: 16px;
+  border-bottom: 5px solid var(--soft-red);
+  cursor: pointer
+}
+
+@media only screen and (max-width: 1000px) {
+
+  .bookmark__features-button {
+    width: 100%;
+    height: 33%;
+  }
+
+  .bookmark__features-button-active {
+    width: 100%;
+    height: 33%;
+  }
+
+}

@@ -1,0 +1,84 @@
+.bookmark__extensions-card {
+  display: block;
+  height: 60%;
+  width: 30%;
+  border: 1px solid rgba(128, 128, 128, 0.178);
+  box-shadow: 2px 4px 2px 4px rgba(128, 128, 128, 0.178);
+}
+
+.bookmark__extensions-card-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40%;
+  width: 100%;
+}
+
+.bookmark__extensions-card h2 {
+  font-family: var(--medium);
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  line-height: 1.7rem;
+  color: var(--very-dark-blue);
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.bookmark__extensions-card p {
+  font-family: var(--regular);
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  line-height: 1.7rem;
+  margin-bottom: 2rem;
+  color: var(--grayish-blue);
+  text-align: center;
+}
+
+.bookmark__extensions-card-dots {
+  width: 100%;
+}
+
+.bookmark__extensions-card-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20%;
+  width: 100%;
+}
+
+.bookmark__extensions-card-button button {
+  border: none;
+  height: 70%;
+  width: 90%;
+  background-color: var(--soft-blue);
+  font-family: var(--regular);
+  color: white;
+  border-radius: 5px;
+}
+
+.bookmark__extensions-card-button button:hover {
+  background-color: white;
+  color: var(--soft-blue);
+  border: 2px solid var(--soft-blue);
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1000px) {
+  .bookmark__extensions-card {
+    height: 30%;
+    width: 90%;
+    margin: auto;
+  }
+
+  .bookmark__extensions-card-img {
+    height: 50%;
+  }
+
+  .bookmark__extensions-card-img img {
+    height: 70%;
+  }
+
+  .bookmark__extensions-card p {
+    margin-bottom: 0rem;
+  }
+}
