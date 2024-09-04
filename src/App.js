@@ -1,5 +1,6 @@
 import './App.css';
 import Extensions from './components/Extensions.jsx';
+import FAQ from './components/FAQ.jsx';
 import Features from './components/Features.jsx';
 import Home from './components/Home.jsx';
 import Navbar from './components/Navbar.jsx';
@@ -11,6 +12,7 @@ function App() {
     <Home/>
     <Features/>
     <Extensions/>
+    <FAQ/>
    </div>
   );
 }
