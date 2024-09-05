@@ -63,7 +63,8 @@
     padding-left: 2rem;
     font-family: var(--regular);
     letter-spacing: 0.1rem;
-    border-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     background-image: url('../assets/images/icon-error.svg');
     background-repeat: no-repeat;
     background-position: right 30px center;
@@ -97,7 +98,7 @@
 .bookmark__contact-input-error-message-container {
     background-color: var(--soft-red);
     width: 100%;
-    height: 20%;
+    height: 30%;
     padding-left: 2rem;
 }
 
