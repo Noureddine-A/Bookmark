@@ -1,4 +1,5 @@
 import './App.css';
+import ContactUs from './components/ContactUs.jsx';
 import Extensions from './components/Extensions.jsx';
 import FAQ from './components/FAQ.jsx';
 import Features from './components/Features.jsx';
@@ -13,6 +14,7 @@ function App() {
     <Features/>
     <Extensions/>
     <FAQ/>
+    <ContactUs/>
    </div>
   );
 }
